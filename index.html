@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Martini Brand Hub</title>
+  <link rel="preload" href="fonts/MartiniTorino-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MartiniTorino-CondensedMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+
+  <!-- Sticky site header: global nav + main nav -->
+  <div class="site-header">
+  <div class="global-nav">
+    <button class="brand-select" type="button" aria-haspopup="listbox">
+      <span>Martini</span>
+      <img src="assets/chevron-down.svg" alt="" width="24" height="24">
+    </button>
+    <label class="global-search">
+      <img src="assets/search.svg" alt="" width="24" height="24">
+      <input type="search" aria-label="Search">
+      <span class="global-search__image"><img src="assets/search-image.svg" alt="Search by image" width="24" height="24"></span>
+    </label>
+    <div class="global-user">
+      <img src="assets/global-nav-user.png?v=2" alt="Notifications, account and settings">
+    </div>
+  </div>
+
+  <!-- Main nav -->
+  <header class="nav">
+    <a class="nav__logo" href="index.html" aria-label="Martini home">
+      <img src="assets/logo.png" alt="Martini">
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav__links">
+        <li><a href="brand-guide.html">BRAND GUIDE</a></li>
+        <li><a href="#">PRODUCT HANDBOOK</a></li>
+        <li><a href="#">ASSETS &amp; TEMPLATES</a></li>
+        <li><a href="#">CAMPAIGNS</a></li>
+        <li><a href="activation-toolkits.html">ACTIVATION TOOLKITS</a></li>
+      </ul>
+    </nav>
+  </header>
+  </div>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <img class="hero__img" src="assets/hero.jpg" alt="">
+      <div class="hero__shade" aria-hidden="true"></div>
+      <p class="hero__eyebrow">WELCOME TO THE</p>
+      <h1 class="hero__title d1">MARTINI BRAND HUB</h1>
+      <p class="hero__intro b1 trim">Your destination for brand guidance, campaign resources, assets and tools. All in one place.</p>
+    </section>
+
+    <!-- What do you need today -->
+    <section class="section">
+      <h2 class="h1 trim">WHAT DO YOU NEED TODAY?</h2>
+      <div class="card-grid">
+        <article class="card">
+          <img class="card__img" src="assets/card-product-handbook.jpg?v=2" alt="">
+          <div class="card__body">
+            <h3 class="d2 trim">EXPLORE PRODUCT HANDBOOK</h3>
+            <p class="b1 trim">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <a class="btn" href="#"><span class="trim">EXPLORE</span><img src="assets/arrow-right.svg" alt="" width="15" height="15"></a>
+          </div>
+        </article>
+        <article class="card">
+          <img class="card__img" src="assets/card-brand.jpg" alt="">
+          <div class="card__body">
+            <h3 class="d2 trim">UNDERSTAND<br>THE BRAND</h3>
+            <p class="b1 trim">Explore our strategy, identity and messaging</p>
+            <a class="btn" href="brand-guide.html"><span class="trim">EXPLORE</span><img src="assets/arrow-right.svg" alt="" width="15" height="15"></a>
+          </div>
+        </article>
+        <article class="card">
+          <img class="card__img" src="assets/card-campaign.jpg" alt="">
+          <div class="card__body">
+            <h3 class="d2 trim">WORK ON A CAMPAIGN</h3>
+            <p class="b1 trim">Access campaigns hubs, creative guidance and tools</p>
+            <a class="btn" href="#"><span class="trim">EXPLORE</span><img src="assets/arrow-right.svg" alt="" width="15" height="15"></a>
+          </div>
+        </article>
+        <article class="card">
+          <img class="card__img" src="assets/card-channel.jpg" alt="">
+          <div class="card__body">
+            <h3 class="d2 trim">ACTIVATE BY CHANNEL</h3>
+            <p class="b1 trim">Discover channel guidance and activation resources</p>
+            <a class="btn" href="#"><span class="trim">EXPLORE</span><img src="assets/arrow-right.svg" alt="" width="15" height="15"></a>
+          </div>
+        </article>
+        <article class="card">
+          <img class="card__img" src="assets/card-products.jpg?v=2" alt="">
+          <div class="card__body">
+            <h3 class="d2 trim">EXPLORE PRODUCTS &amp; SERVES</h3>
+            <p class="b1 trim">Product information, serve guidance and more</p>
+            <a class="btn" href="#"><span class="trim">EXPLORE</span><img src="assets/arrow-right.svg" alt="" width="15" height="15"></a>
+          </div>
+        </article>
+        <article class="card">
+          <img class="card__img" src="assets/card-assets.jpg?v=2" alt="">
+          <div class="card__body">
+            <h3 class="d2 trim">FIND ASSETS &amp; TEMPLATES</h3>
+            <p class="b1 trim">Download approved files for your projects</p>
+            <a class="btn" href="#"><span class="trim">EXPLORE</span><img src="assets/arrow-right.svg" alt="" width="15" height="15"></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Featured -->
+    <section class="section" aria-roledescription="carousel" aria-label="Featured">
+      <div class="section__head">
+        <h2 class="h1 trim">FEATURED</h2>
+        <div class="carousel-controls">
+          <button class="carousel-btn" type="button" data-carousel="prev" aria-label="Previous slide">
+            <img src="assets/carousel-prev.svg" alt="" width="24" height="24">
+          </button>
+          <button class="carousel-dot" type="button" data-slide="0" aria-label="Slide 1" aria-current="true"></button>
+          <button class="carousel-dot" type="button" data-slide="1" aria-label="Slide 2"></button>
+          <button class="carousel-btn" type="button" data-carousel="next" aria-label="Next slide">
+            <img src="assets/carousel-next.svg" alt="" width="24" height="24">
+          </button>
+        </div>
+      </div>
+
+      <article class="featured" data-slide-panel="0">
+        <img class="featured__img" src="assets/featured-martini-man.jpg" alt="">
+        <div class="featured__body">
+          <p class="b1 trim">CAMPAIGN</p>
+          <h3 class="d2 trim">FY27 THE MARTINI MAN</h3>
+          <p class="b1 trim">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a class="btn" href="#"><span class="trim">EXPLORE CAMPAIGN</span><img src="assets/arrow-right.svg" alt="" width="15" height="15"></a>
+        </div>
+      </article>
+      <article class="featured" data-slide-panel="1" hidden>
+        <img class="featured__img" src="assets/featured-terrazza.jpg" alt="">
+        <div class="featured__body">
+          <p class="b1 trim">CAMPAIGN</p>
+          <h3 class="d2 trim">TERRAZZA MARTINI</h3>
+          <p class="b1 trim">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a class="btn" href="#"><span class="trim">EXPLORE TOOLKIT</span><img src="assets/arrow-right.svg" alt="" width="15" height="15"></a>
+        </div>
+      </article>
+    </section>
+
+    <!-- Recently updated + useful links -->
+    <section class="section section--last">
+      <div class="split">
+        <div class="split__col">
+          <div class="section__head">
+            <h2 class="h1 trim">RECENTLY UPDATED</h2>
+            <a class="btn btn--sm" href="#"><span class="trim">VIEW ALL</span><img src="assets/arrow-right.svg" alt="" width="15" height="15"></a>
+          </div>
+          <ul class="asset-list">
+            <li class="asset">
+              <img class="asset__thumb" src="assets/recent/pool.jpg" alt="" width="76" height="57" loading="lazy">
+              <div class="asset__info">
+                <div class="asset__title"><h3 class="h2 trim"><a href="#">FY27_<wbr>Global_<wbr>MARTINI_<wbr>TheMARTINIMan_<wbr>Pool_<wbr>Still.jpg</a></h3><span class="tag">NEW</span></div>
+                <div class="asset__meta b1"><span class="trim">JPG</span><span class="trim">04/11/2026</span></div>
+              </div>
+              <a class="asset__download" href="#" aria-label="Download FY27_Global_MARTINI_TheMARTINIMan_Pool_Still.jpg"><span class="asset__download-icon" aria-hidden="true"></span></a>
+            </li>
+            <li class="asset">
+              <img class="asset__thumb" src="assets/recent/coaching-room.jpg" alt="" width="76" height="57" loading="lazy">
+              <div class="asset__info">
+                <div class="asset__title"><h3 class="h2 trim"><a href="#">FY27_<wbr>Global_<wbr>MARTINI_<wbr>TheMARTINIMan_<wbr>CoachingRoom_<wbr>Still.jpg</a></h3><span class="tag">NEW</span></div>
+                <div class="asset__meta b1"><span class="trim">JPG</span><span class="trim">04/11/2026</span></div>
+              </div>
+              <a class="asset__download" href="#" aria-label="Download FY27_Global_MARTINI_TheMARTINIMan_CoachingRoom_Still.jpg"><span class="asset__download-icon" aria-hidden="true"></span></a>
+            </li>
+            <li class="asset">
+              <img class="asset__thumb" src="assets/recent/ocean.jpg" alt="" width="76" height="57" loading="lazy">
+              <div class="asset__info">
+                <div class="asset__title"><h3 class="h2 trim"><a href="#">FY27_<wbr>Global_<wbr>MARTINI_<wbr>TheMARTINIMan_<wbr>Ocean_<wbr>Still.jpg</a></h3><span class="tag tag--updated">UPDATED</span></div>
+                <div class="asset__meta b1"><span class="trim">JPG</span><span class="trim">04/11/2026</span></div>
+              </div>
+              <a class="asset__download" href="#" aria-label="Download FY27_Global_MARTINI_TheMARTINIMan_Ocean_Still.jpg"><span class="asset__download-icon" aria-hidden="true"></span></a>
+            </li>
+            <li class="asset">
+              <img class="asset__thumb" src="assets/recent/poster.jpg" alt="" width="76" height="57" loading="lazy">
+              <div class="asset__info">
+                <div class="asset__title"><h3 class="h2 trim"><a href="#">FY27_<wbr>Global_<wbr>MARTINI_<wbr>TheMARTINIMan_<wbr>Poster_<wbr>Still.jpg</a></h3><span class="tag tag--updated">UPDATED</span></div>
+                <div class="asset__meta b1"><span class="trim">JPG</span><span class="trim">04/11/2026</span></div>
+              </div>
+              <a class="asset__download" href="#" aria-label="Download FY27_Global_MARTINI_TheMARTINIMan_Poster_Still.jpg"><span class="asset__download-icon" aria-hidden="true"></span></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="split__col">
+          <h2 class="h1 trim">USEFUL LINKS</h2>
+          <div class="link-cards">
+            <article class="link-card">
+              <img class="link-card__img" src="assets/link-new.png" alt="">
+              <div class="link-card__body">
+                <div class="link-card__text">
+                  <h3 class="h2 trim">NEW TO MARTINI HUB?</h3>
+                  <p class="b2">Everything you need to get started.</p>
+                </div>
+                <a class="btn btn--sm" href="#"><span class="trim">READ THE GUIDE</span><img src="assets/arrow-right.svg" alt="" width="15" height="15"></a>
+              </div>
+            </article>
+            <article class="link-card">
+              <img class="link-card__img" src="assets/link-help.png" alt="">
+              <div class="link-card__body">
+                <div class="link-card__text">
+                  <h3 class="h2 trim">NEED HELP?</h3>
+                  <p class="b2">Find answers or visit our support page.</p>
+                </div>
+                <a class="btn btn--sm" href="#"><span class="trim">GET SUPPORT</span><img src="assets/arrow-right.svg" alt="" width="15" height="15"></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a class="footer__logo" href="#" aria-label="Martini home"><img src="assets/logo.png" alt="Martini"></a>
+    <nav class="footer__cols" aria-label="Footer">
+      <div class="footer__col">
+        <h3>BRAND GUIDE</h3>
+        <ul>
+          <li><a href="#">BRAND FOUNDATIONS</a></li>
+          <li><a href="#">STRATEGY &amp; CONTEXT</a></li>
+          <li><a href="#">VOICE &amp; MESSAGING</a></li>
+          <li><a href="#">PHOTOGRAPHY &amp; ART DIRECTION</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3>CAMPAIGNS</h3>
+        <ul>
+          <li><a href="#">DARE TO BE</a></li>
+          <li><a href="#">FY27 THE MARTINI MAN</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3>ACTIVATION TOOLKITS</h3>
+        <ul>
+          <li><a href="#">FY26-27 360 Brand Toolikt</a></li>
+          <li><a href="#">FY27 Connections Strategy</a></li>
+          <li><a href="#">FY27 Retail Standards</a></li>
+          <li><a href="#">FY27 TERRAZZA MARTINI</a></li>
+          <li><a href="#">FY27 Summer Campaign</a></li>
+          <li><a href="#">FY27 Advocacy</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3>ASSETS &amp; TEMPLATES</h3>
+        <ul>
+          <li><a href="#">Logos &amp; Identity files</a></li>
+          <li><a href="#">Product Imagery</a></li>
+          <li><a href="#">Campaign Assets</a></li>
+          <li><a href="#">Photography</a></li>
+          <li><a href="#">Presentation Templates</a></li>
+          <li><a href="#">POSM &amp; Menu Templates</a></li>
+          <li><a href="#">Technical &amp; Production Files</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3>PRODUCTS &amp; SERVES</h3>
+        <ul>
+          <li><a href="#">Portfolio &amp; Product Pages</a></li>
+          <li><a href="#">Serve Guidance</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3>INSIGHTS</h3>
+        <ul>
+          <li><a href="#">Consumers &amp; Audiences</a></li>
+          <li><a href="#">Occasions &amp; Need States</a></li>
+          <li><a href="#">Consumer &amp; Market Research</a></li>
+          <li><a href="#">Culture &amp; Category</a></li>
+          <li><a href="#">Campaign Learnings</a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

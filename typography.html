@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Typography · Martini Brand Guide</title>
+  <link rel="preload" href="fonts/MartiniTorino-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MartiniTorino-CondensedMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+
+  <!-- Sticky site header: global nav + main nav + breadcrumb -->
+  <div class="site-header">
+    <div class="global-nav">
+      <button class="brand-select" type="button" aria-haspopup="listbox">
+        <span>Martini</span>
+        <img src="assets/chevron-down.svg" alt="" width="24" height="24">
+      </button>
+      <div class="global-user">
+        <img src="assets/global-nav-user.png?v=2" alt="Notifications, account and settings">
+      </div>
+    </div>
+
+    <header class="nav">
+      <a class="nav__logo" href="index.html" aria-label="Martini home">
+        <img src="assets/logo.png" alt="Martini">
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav__links">
+          <li><a href="brand-guide.html" aria-current="page">BRAND GUIDE</a></li>
+          <li><a href="#">PRODUCT HANDBOOK</a></li>
+          <li><a href="#">ASSETS &amp; TEMPLATES</a></li>
+          <li><a href="#">CAMPAIGNS</a></li>
+          <li><a href="activation-toolkits.html">ACTIVATION TOOLKITS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="index.html">HOME</a></li>
+        <li><img src="assets/brand-guide/icon-breadcrumb-caret.svg" alt="" width="16" height="16"><a href="brand-guide.html">BRAND GUIDE</a></li>
+        <li><img src="assets/brand-guide/icon-breadcrumb-caret.svg" alt="" width="16" height="16"><a href="brand-guide.html#visual-identity">VISUAL IDENTITY</a></li>
+      </ol>
+    </nav>
+  </div>
+
+  <div class="guide-layout">
+    <!-- Section sidebar -->
+    <aside class="guide-sidebar" aria-label="Visual identity">
+      <div class="guide-sidebar__inner">
+        <button class="guide-sidebar__toggle" type="button" aria-expanded="true" aria-controls="sidebar-links">
+          <span class="h2 trim">VISUAL IDENTITY</span>
+          <img src="assets/brand-guide/icon-chevron-down-white.svg" alt="" width="20" height="20">
+        </button>
+        <ul class="guide-sidebar__links" id="sidebar-links">
+          <li><a href="#">Logos &amp; Wordmark</a></li>
+          <li><a href="colour-palette.html">Colour Palette</a></li>
+          <li><a href="typography.html" aria-current="page">Typography</a></li>
+          <li><a href="#">Racing Stripes</a></li>
+          <li><a href="#">Circles &amp; Arches</a></li>
+          <li><a href="#">Martini Pattern</a></li>
+          <li><a href="#">Textures &amp; Materials</a></li>
+          <li><a href="#">Brand Lock-ups</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="guide-content">
+      <h1 class="d2 trim guide-content__title">TYPOGRAPHY</h1>
+
+      <section class="guide-block" aria-labelledby="fonts-title">
+        <div class="guide-block__head">
+          <h2 class="h2 trim" id="fonts-title">FONTS</h2>
+          <a class="btn btn--sm" href="#"><span class="trim">DOWNLOAD COLLECTION</span><span class="btn__icon-download" aria-hidden="true"></span></a>
+        </div>
+        <p class="b1 trim">In alignment with our evolved BVI and new company policy, MARTINI has developed a bespoke hero font, MARTINI TORINO, and a new script font, MARTINI Sprezzatura, designed to deliver a more distinctive and ownable visual identity. Additional guidance on usage and implementation will be provided as part of the official BVI rollout.</p>
+        <ul class="font-grid">
+          <li>
+            <a class="font-card" href="#">
+            <div class="font-card__thumb font-card__thumb--grey">
+              <img src="assets/brand-guide/typography/page-075.jpg" alt="Martini Torino Condensed specimen" style="height:104%;border-radius:16px">
+              <span class="font-card__badge" aria-hidden="true"><img src="assets/brand-guide/icon-download-white.svg" alt="" width="28" height="28"></span>
+            </div>
+            <p class="b2 font-card__name">MARTINI_TORINO_CONDENSED_DISPLAY.otf</p>
+            </a>
+          </li>
+          <li>
+            <a class="font-card" href="#">
+            <div class="font-card__thumb">
+              <img src="assets/brand-guide/typography/page-077.jpg" alt="Martini Torino specimen" style="height:100%">
+              <span class="font-card__badge" aria-hidden="true"><img src="assets/brand-guide/icon-download-white.svg" alt="" width="28" height="28"></span>
+            </div>
+            <p class="b2 font-card__name">MARTINI_TORINO.otf</p>
+            </a>
+          </li>
+          <li>
+            <a class="font-card" href="#">
+            <div class="font-card__thumb">
+              <img src="assets/brand-guide/typography/page-079.jpg" alt="Martini Sprezzatura script specimen" style="height:115.2%">
+              <span class="font-card__badge" aria-hidden="true"><img src="assets/brand-guide/icon-download-white.svg" alt="" width="28" height="28"></span>
+            </div>
+            <p class="b2 font-card__name">MARTINI_SPREZZATURA_SCRIPT.otf</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="guide-block" aria-labelledby="guidelines-title">
+        <h2 class="h2 trim" id="guidelines-title">GUIDELINES</h2>
+        <img class="guide-slide" src="assets/brand-guide/typography/page-072.jpg" alt="Typography guideline, page 72" width="800" height="450">
+        <img class="guide-slide" src="assets/brand-guide/typography/page-073.jpg" alt="Typography guideline, page 73" width="800" height="450">
+        <img class="guide-slide" src="assets/brand-guide/typography/page-074.jpg" alt="Typography guideline, page 74" width="800" height="450" loading="lazy">
+        <img class="guide-slide" src="assets/brand-guide/typography/page-075.jpg" alt="Typography guideline, page 75" width="800" height="450" loading="lazy">
+        <img class="guide-slide" src="assets/brand-guide/typography/page-076.jpg" alt="Typography guideline, page 76" width="800" height="450" loading="lazy">
+        <img class="guide-slide" src="assets/brand-guide/typography/page-077.jpg" alt="Typography guideline, page 77" width="800" height="450" loading="lazy">
+        <img class="guide-slide" src="assets/brand-guide/typography/page-078.jpg" alt="Typography guideline, page 78" width="800" height="450" loading="lazy">
+        <img class="guide-slide" src="assets/brand-guide/typography/page-079.jpg" alt="Typography guideline, page 79" width="800" height="450" loading="lazy">
+        <img class="guide-slide" src="assets/brand-guide/typography/page-080.jpg" alt="Typography guideline, page 80" width="800" height="450" loading="lazy">
+        <img class="guide-slide" src="assets/brand-guide/typography/page-081.jpg" alt="Typography guideline, page 81" width="800" height="450" loading="lazy">
+        <img class="guide-slide" src="assets/brand-guide/typography/page-082.jpg" alt="Typography guideline, page 82" width="800" height="450" loading="lazy">
+      </section>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a class="footer__logo" href="index.html" aria-label="Martini home"><img src="assets/logo.png" alt="Martini"></a>
+    <nav class="footer__cols" aria-label="Footer">
+      <div class="footer__col">
+        <h3>BRAND GUIDE</h3>
+        <ul>
+          <li><a href="#">BRAND FOUNDATIONS</a></li>
+          <li><a href="#">STRATEGY &amp; CONTEXT</a></li>
+          <li><a href="#">VOICE &amp; MESSAGING</a></li>
+          <li><a href="#">PHOTOGRAPHY &amp; ART DIRECTION</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3>CAMPAIGNS</h3>
+        <ul>
+          <li><a href="#">DARE TO BE</a></li>
+          <li><a href="#">FY27 THE MARTINI MAN</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3>ACTIVATION TOOLKITS</h3>
+        <ul>
+          <li><a href="#">FY26-27 360 Brand Toolikt</a></li>
+          <li><a href="#">FY27 Connections Strategy</a></li>
+          <li><a href="#">FY27 Retail Standards</a></li>
+          <li><a href="#">FY27 TERRAZZA MARTINI</a></li>
+          <li><a href="#">FY27 Summer Campaign</a></li>
+          <li><a href="#">FY27 Advocacy</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3>ASSETS &amp; TEMPLATES</h3>
+        <ul>
+          <li><a href="#">Logos &amp; Identity files</a></li>
+          <li><a href="#">Product Imagery</a></li>
+          <li><a href="#">Campaign Assets</a></li>
+          <li><a href="#">Photography</a></li>
+          <li><a href="#">Presentation Templates</a></li>
+          <li><a href="#">POSM &amp; Menu Templates</a></li>
+          <li><a href="#">Technical &amp; Production Files</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3>PRODUCTS &amp; SERVES</h3>
+        <ul>
+          <li><a href="#">Portfolio &amp; Product Pages</a></li>
+          <li><a href="#">Serve Guidance</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3>INSIGHTS</h3>
+        <ul>
+          <li><a href="#">Consumers &amp; Audiences</a></li>
+          <li><a href="#">Occasions &amp; Need States</a></li>
+          <li><a href="#">Consumer &amp; Market Research</a></li>
+          <li><a href="#">Culture &amp; Category</a></li>
+          <li><a href="#">Campaign Learnings</a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+</div>
+
+<script src="main.js"></script>
+<script>
+  // Collapse / expand the sidebar section list
+  (function () {
+    const btn = document.querySelector('.guide-sidebar__toggle');
+    const list = document.getElementById(btn.getAttribute('aria-controls'));
+    btn.addEventListener('click', () => {
+      const open = btn.getAttribute('aria-expanded') !== 'true';
+      btn.setAttribute('aria-expanded', String(open));
+      list.hidden = !open;
+    });
+  })();
+</script>
+</body>
+</html>
