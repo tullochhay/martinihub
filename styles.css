@@ -467,6 +467,8 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   justify-content: center;
   gap: 20px;
 }
+.br-wide { display: none; }
+@media (min-width: 1281px) { .br-wide { display: inline; } }
 
 /* ---------- Latest assets + useful links ---------- */
 .split {
@@ -699,6 +701,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .hero--compact { height: 501px; }
 .hero--compact .hero__shade { top: 191px; }
 .hero--compact .hero__intro { max-width: 416px; color: var(--white); }
+.hero--toolkits .hero__intro { max-width: 475px; }
 
 .section__actions { display: flex; align-items: center; justify-content: flex-end; gap: 20px; }
 .view-toggle { display: flex; align-items: center; gap: 8px; }
@@ -738,6 +741,8 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   text-align: left;
 }
 .toolkits[data-view="list"] .toolkit__text { gap: 20px; max-width: 550px; }
+.toolkits[data-view="list"] .toolkit__text .b1 { max-width: 460px; }
+.toolkits[data-view="list"] .br-wide { display: none; }
 
 /* ---------- Brand guide content pages (sidebar + content) ---------- */
 .guide-layout {
@@ -880,7 +885,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   align-items: flex-start;
   gap: 30px;
   padding: 80px var(--gutter) 60px;
-  background: var(--tint);
+  background: var(--martini-beige);
   border-top: 14px dashed var(--martini-red);
 }
 .footer__logo { width: 200px; height: 96px; flex-shrink: 0; }
