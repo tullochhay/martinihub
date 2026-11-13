@@ -796,6 +796,8 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 }
 .guide-content__title { color: var(--martini-red); }
 .guide-block { display: flex; flex-direction: column; align-items: flex-start; gap: 20px; }
+.fonts-intro { max-width: 700px; }
+.retail-intro { max-width: 805px; }
 .guide-block__head {
   display: flex;
   align-items: flex-start;
